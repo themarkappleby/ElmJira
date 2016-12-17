@@ -1,0 +1,25 @@
+body {
+  background: #ccc;
+  margin: 50px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+.status {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.done {
+  opacity: 0.3;
+}
