@@ -1,0 +1,7 @@
+{
+    "version": "0.1.0",
+    "command": "elm-live",
+    "isShellCommand": true,
+    "args": ["src/Main.elm", "--output=main.js", "--debug", "--open"],
+    "showOutput": "always"
+}

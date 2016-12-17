@@ -2,4 +2,4 @@
 
 A Jira-lite application built with Elm.
 
-Run `elm package install` and then `./start` to work on it.
+Open VS Code and hit: `cmd + shift + b` to start
