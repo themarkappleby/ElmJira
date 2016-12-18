@@ -1,9 +1,9 @@
 module Main exposing (main)
 
-import Html exposing (..)
+import Html
 import View exposing (view)
-import Update exposing (..)
-import Model exposing (..)
+import Update exposing (Msg, update)
+import Model exposing (Model, initialModel)
 
 
 main : Program Never Model Msg
@@ -11,5 +11,5 @@ main =
     Html.beginnerProgram
         { view = view
         , update = update
-        , model = model
+        , model = initialModel
         }
