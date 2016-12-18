@@ -1,7 +1,7 @@
 module Main exposing (main)
 
 import Html
-import View exposing (view)
+import View.Index exposing (view)
 import Update exposing (Msg, update)
 import Model exposing (Model, initialModel)
 
